@@ -1,0 +1,16 @@
+#c1
+{   color: rgb(253, 253, 253);
+    background-color: rgba(50, 6, 228, 0.794);
+    border-radius: 20px;
+    text-align: center; 
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bg
+{
+    background-color: rgba(0, 0, 139, 0.493);
+}
+#p2{
+    margin-left: 680px;
+}
