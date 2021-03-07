@@ -1,0 +1,142 @@
+#heading
+{
+    
+    font-size: 45px;
+    /* font-style: italic; */
+    text-decoration: underline;
+    font-family:initial
+    background-color: bisque;
+    /* border-width: 5px; */
+    /* border-color:darkblue; */
+    /* border-style: solid; */
+    border: 5px solid  darkblue;
+   border-radius: 500px;
+   border-bottom-width: 10px;
+   border-right-width: 10px ;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 50px;
+    /* margin-bottom: 10px; */
+
+
+}
+#watermark
+{
+ position:fixed;
+ bottom:5px;
+ right:5px;
+ opacity:0.5;
+ z-index:99;
+ color:white;
+}
+
+.image
+{
+    /* padding-left: 30px; */
+}
+.sidebox
+{
+    text-align: left;
+    background-color:rgb(243, 242, 247);
+    font-family: cursive;
+    width: 200px;
+    height: 200px;
+        margin-bottom: 20px;
+
+        /* clear:left; */
+        float: left;
+    /* padding: 10px 10px 40px 10px ; */
+    
+
+}
+.bodybackground
+{
+     background-color:rgb(243, 247, 247);   
+}
+
+
+.rightmargin
+{
+    margin-right: 30px; 
+}
+.upperlowermargin
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.center{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Poppins';
+
+
+}
+.fieldset{
+    margin-left: 4in; 
+    margin-right: 4in; 
+    
+    }
+.formbackground{
+        
+   background-color:rgba(212, 241, 234, 0.609)  
+
+        
+}
+.legend{
+    text-align: left;
+    font-weight: 500;   
+    font-size: 30px; 
+    font-family: 'Poppins', sans-serif;
+    color:black;
+
+}
+.font{
+    font-weight:bold;
+}
+#manageverify{
+    width: 250px;
+    height: 50px;
+    margin-left: 200px;
+    background-color:rgb(0, 238, 255);
+    border-radius: 20px;
+}
+#verify
+{
+    padding:  10px 22px 22px 22px ;
+    text-decoration: teal;
+    color:white;
+    
+}
+
+.colorbotton{border: 0;
+    line-height: 2.5;
+    padding: 1px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(250, 250, 253);
+    text-shadow: 50px 50px 50px #000;
+    border-radius: 30px;
+    border-bottom-width: 60px;
+    background-color: rgb(18, 0, 100);
+    cursor: pointer;
+    /* background-image: linear-gradient(to top left, */
+                                      /* rgba(0, 0, 0, .2), */
+                                      /* rgba(0, 0, 0, .2) 30%, */
+                                      /* rgba(0, 0, 0, 0)); */
+    box-shadow: inset 5px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -5px -2px 3px rgba(0, 0, 0, .6);
+}
+.colorbotton:hover
+{
+    background-color: rgb(148, 238, 218);
+}
+.colorbotton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.managebotton
+{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+}
